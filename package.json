@@ -1,0 +1,44 @@
+{
+  "name": "@yext/eslint-config",
+  "version": "0.0.1",
+  "description": "Yext's ESLint configurations for Javascript, Typescript, and React repos",
+  "files": [
+    "src",
+    "THIRD-PARTY-NOTICES",
+    "postinstall.js"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./vanilla-js": "./src/vanilla-js.js",
+    "./typescript": "./src/typescript.js",
+    "./typescript-react": "./src/typescript-react.js"
+  },
+  "scripts": {
+    "generate-notices": "generate-license-file --input package.json --output THIRD-PARTY-NOTICES --overwrite",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yext/eslint-config.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/yext/eslint-config/issues"
+  },
+  "homepage": "https://github.com/yext/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-perf": "^3.3.1",
+    "eslint-plugin-tsdoc": "^0.2.14",
+    "@yext/eslint-plugin-export-star": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.15.0"
+  },
+  "devDependencies": {
+    "generate-license-file": "^1.3.0"
+  }
+}
