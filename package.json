@@ -1,7 +1,7 @@
 {
-  "name": "@yext/eslint-config-slapshot",
-  "version": "0.5.0",
-  "description": "Shared eslint configs for Slapshot's repos.",
+  "name": "@yext/eslint-config",
+  "version": "0.0.1",
+  "description": "Shared eslint configs for Yext repos.",
   "files": [
     "src",
     "THIRD-PARTY-NOTICES",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yext/slapshot-tools.git"
+    "url": "git+https://github.com/yext/eslint-config.git"
   },
   "author": "",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/yext/slapshot-tools/issues"
+    "url": "https://github.com/yext/eslint-config/issues"
   },
-  "homepage": "https://github.com/yext/slapshot-tools#readme",
+  "homepage": "https://github.com/yext/eslint-config#readme",
   "dependencies": {
     "eslint-config-react-app": "^7.0.1"
   },

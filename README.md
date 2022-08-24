@@ -1,8 +1,8 @@
-# eslint-config-slapshot
+# eslint-config
 
 <div>
-  <a href="https://npmjs.org/package/@yext/eslint-config-slapshot">
-    <img src="https://img.shields.io/npm/v/@yext/eslint-config-slapshot" alt="NPM version"/>
+  <a href="https://npmjs.org/package/@yext/eslint-config">
+    <img src="https://img.shields.io/npm/v/@yext/eslint-config" alt="NPM version"/>
   </a>
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" alt="License"/>
@@ -25,7 +25,7 @@ Example usage:
 ```js
 {
   extends: [
-    '@yext/slapshot/typescript-react',
+    '@yext/eslint-config/typescript-react',
   ]
 }
 ```
