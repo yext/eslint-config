@@ -1,7 +1,7 @@
 {
   "name": "@yext/eslint-config",
   "version": "0.0.1",
-  "description": "Yext's ESLint Configurations for for Javascript, Typescript, and React repos",
+  "description": "Yext's ESLint configurations for Javascript, Typescript, and React repos",
   "files": [
     "src",
     "THIRD-PARTY-NOTICES",
