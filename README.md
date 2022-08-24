@@ -10,7 +10,7 @@
 </div>
 <br>
 
-Shareable configs for Javascript, Typescript, and React repos.
+Yext's ESLint Configurations for for Javascript, Typescript, and React repos.
 
 ## Configs
 
