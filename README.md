@@ -14,9 +14,8 @@ Yext's ESLint configurations for Javascript, Typescript, and React repos.
 
 ## Configs
 
-This package offers four pre-built configs:
-- A default config for rules shared between all our configs, and is automatically extended by our other configs.
-- "vanilla-js" config for vanilla javascript specific rules.
+This package offers three pre-built configs:
+- A default config for vanilla javascript specific rules
 - "typescript" config for typescript specific rules
 - "typescript-react" config, which extends our "typescript" config with react rules
 
@@ -29,3 +28,10 @@ Example usage:
   ]
 }
 ```
+
+# Typescript specific configuration
+
+Certain rules included in "typescript" config or "typescript-react" config requires
+"parserOptions.project" to be defined. By default, it's set to "./tsconfig.json".
+User may override "parserOptions.project" configuration to provide a different path
+to their project's tsconfig file.
