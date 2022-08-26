@@ -4,7 +4,6 @@ module.exports = {
     'airbnb-typescript/base',
     './custom/javascript', //override rules in airbnb-base + add new rules
     './custom/typescript', //override rules in airbnb-typescript/base + add new rules
-    'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
     ecmaVersion: 2020,
