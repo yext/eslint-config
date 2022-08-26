@@ -8,7 +8,7 @@ module.exports = {
     './overrides/react' // override react rules in airbnb + add new rules
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     project: './tsconfig.json'
   }
 };
