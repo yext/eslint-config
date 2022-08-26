@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
     'eslint-plugin-tsdoc'
@@ -15,7 +15,7 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-unused-vars': ['error', {
       argsIgnorePattern: '^_',
-      varsIgnorePattern: '^_' 
+      varsIgnorePattern: '^_'
     }],
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
@@ -25,10 +25,10 @@ module.exports = {
       singleline: {
         delimiter: 'comma',
         requireLast: false
-      },
+      }
     }],
     '@typescript-eslint/prefer-as-const': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     'tsdoc/syntax': 'error'
   }
-}
+};

@@ -8,9 +8,10 @@ module.exports = {
       ignoreStrings: true,
       ignoreComments: true,
       ignoreTemplateLiterals: true,
-      ignoreRegExpLiterals: true,
+      ignoreRegExpLiterals: true
     }],
     'comma-dangle': ['error', 'never'],
-    'no-underscore-dangle': 'off'
+    'no-underscore-dangle': 'off',
+    'no-console': 'off'
   }
 };
