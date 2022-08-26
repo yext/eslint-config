@@ -9,6 +9,7 @@ module.exports = {
   ],
   rules: {
     'react/jsx-props-no-spreading': 'off',
-    'react/function-component-definition': 'off'
+    'react/function-component-definition': 'off',
+    'react/require-default-props': 'off'
   }
 };
