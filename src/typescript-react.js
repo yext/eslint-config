@@ -1,19 +1,14 @@
 module.exports = {
   extends: [
-    'react-app',
-    'react-app/jest',
-    'plugin:react-perf/recommended',
-    '@yext/slapshot/typescript'
+    'airbnb',
+    'airbnb-typescript',
+    'airbnb/hooks',
+    './overrides/javascript', // override base rules in airbnb + add new rules
+    './overrides/typescript', // override rules in airbnb-typescript + add new rules
+    './overrides/react' // override react rules in airbnb + add new rules
   ],
-  rules: {
-    'react/jsx-curly-brace-presence': ['warn', 'never'],
-    'react-perf/jsx-no-new-object-as-prop': 1,
-    'react-perf/jsx-no-new-array-as-prop': 1,
-    'react-perf/jsx-no-new-function-as-prop': 1,
-    'testing-library/prefer-screen-queries': 1,
-    'testing-library/no-unnecessary-act': 1,
-    'jest/no-conditional-expect': 1,
-    'import/first': 1
+  parserOptions: {
+    ecmaVersion: 'latest',
+    project: './tsconfig.json'
   }
-}
-
+};
