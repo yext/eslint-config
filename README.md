@@ -15,6 +15,7 @@ Yext's ESLint configurations for Typescript and React repos.
 ## Configs
 
 This package offers two pre-built configs:
+
 - A default config for typescript specific rules
 - "typescript-react" config, which extends our default config with react rules
 
