@@ -29,9 +29,9 @@ Example usage:
 }
 ```
 
-# Typescript specific configuration
+# Typescript-react specific configuration
 
-Certain rules included in the default config or "typescript-react" config require
+Certain rules included in the "typescript-react" config require
 "parserOptions.project" to be defined. By default, it's set to "./tsconfig.json".
 Users may override "parserOptions.project" configuration to provide a different path
 to their project's tsconfig file.
