@@ -47,6 +47,6 @@
   },
   "devDependencies": {
     "generate-license-file": "^1.3.0",
-    "prettier": "^2.7.1"
+    "prettier": "2.7.1"
   }
 }
