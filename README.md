@@ -10,14 +10,14 @@
 </div>
 <br>
 
-Yext's ESLint configurations for Javascript, Typescript, and React repos.
+Yext's ESLint configurations for Typescript and React repos.
 
 ## Configs
 
-This package offers three pre-built configs:
-- A default config for vanilla javascript specific rules
-- "typescript" config for typescript specific rules
-- "typescript-react" config, which extends our "typescript" config with react rules
+This package offers two pre-built configs:
+
+- A default config for typescript specific rules
+- "typescript-react" config, which extends our default config with react rules
 
 Example usage:
 
@@ -31,7 +31,7 @@ Example usage:
 
 # Typescript specific configuration
 
-Certain rules included in "typescript" config or "typescript-react" config requires
+Certain rules included in the default config or "typescript-react" config require
 "parserOptions.project" to be defined. By default, it's set to "./tsconfig.json".
-User may override "parserOptions.project" configuration to provide a different path
+Users may override "parserOptions.project" configuration to provide a different path
 to their project's tsconfig file.
