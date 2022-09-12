@@ -1,12 +1,3 @@
-import {
-  AssertPredicate as _,
-  AssertionError as __,
-  CallTracker as ___,
-  deepEqual as ____,
-  deepStrictEqual as _____,
-  doesNotMatch,
-} from "assert";
-
 module.exports = {
   extends: [
     "airbnb-base",
