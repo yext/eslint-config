@@ -3,7 +3,7 @@ module.exports = {
     "react-app",
     "react-app/jest",
     "plugin:react-perf/recommended",
-    "@yext/eslint-config",
+    "./typescript.js",
   ],
   rules: {
     "react/jsx-curly-brace-presence": ["warn", "never"],
