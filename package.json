@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/yext/eslint-config#readme",
   "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.1"
   },
   "peerDependencies": {

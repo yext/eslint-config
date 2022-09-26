@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@yext/export-star/recommended",
+    "prettier",
   ],
   plugins: ["eslint-plugin-tsdoc"],
   parser: "@typescript-eslint/parser",
@@ -9,7 +10,6 @@ module.exports = {
     ecmaVersion: "latest",
   },
   rules: {
-    "@typescript-eslint/no-extra-semi": "off", // to avoid conflict with Prettier
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
